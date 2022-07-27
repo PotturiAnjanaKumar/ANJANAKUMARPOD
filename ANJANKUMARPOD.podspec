@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ANJANKUMARPOD"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ANJANKUMARPOD."
+  spec.summary      = "A short description of ANJAN KUMAR POD."
 
   spec.description  = <<-DESC
 This CocoaPods library helps you perform calculation.
