@@ -1,0 +1,6 @@
+framework module ANJANKUMARPOD {
+  umbrella header "ANJANKUMARPOD-umbrella.h"
+
+  export *
+  module * { export * }
+}
