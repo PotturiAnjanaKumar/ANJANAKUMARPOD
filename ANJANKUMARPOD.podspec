@@ -8,14 +8,14 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "https://github.com/PotturiAnjanaKumar/ANJANAKUMARPOD"
+  spec.homepage     = "https://github.com/PotturiAnjanaKumar/ANJANAKUMARPOD.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "jeantimex" => "anjanpotturi@gmail.com" }
 
   spec.ios.deployment_target = "15.0"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/PotturiAnjanaKumar/ANJANAKUMARPOD", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/PotturiAnjanaKumar/ANJANAKUMARPOD.git", :tag => "#{spec.version}" }
   spec.source_files  = "ANJANKUMARPOD/**/*.{h,m,swift}"
 
 end
