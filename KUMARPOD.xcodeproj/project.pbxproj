@@ -14,6 +14,7 @@
 		3F03099A2893133700753302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0309982893133700753302 /* Main.storyboard */; };
 		3F03099C2893133800753302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F03099B2893133800753302 /* Assets.xcassets */; };
 		3F03099F2893133800753302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03099D2893133800753302 /* LaunchScreen.storyboard */; };
+		3FCDF3CA289314B900A0B958 /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCDF3C9289314B900A0B958 /* SwiftLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F03099B2893133800753302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F03099E2893133800753302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0309A02893133800753302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCDF3C9289314B900A0B958 /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				3F030979289312FE00753302 /* KUMARPOD.h */,
+				3FCDF3C9289314B900A0B958 /* SwiftLib.swift */,
 			);
 			path = KUMARPOD;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				TargetAttributes = {
 					3F030975289312FE00753302 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 					3F0309842893131500753302 = {
 						CreatedOnToolsVersion = 13.4;
@@ -243,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCDF3CA289314B900A0B958 /* SwiftLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +413,7 @@
 		3F03097E289312FE00753302 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -427,6 +433,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,6 +442,7 @@
 		3F03097F289312FE00753302 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
